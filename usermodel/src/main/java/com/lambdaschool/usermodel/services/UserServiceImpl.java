@@ -267,4 +267,5 @@ public class UserServiceImpl implements UserService
             throw new EntityExistsException("Role and User Combination Already Exists");
         }
     }
+
 }
